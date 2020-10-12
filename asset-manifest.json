@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ARnft-ES6-react/static/css/main.cf394707.chunk.css",
+    "main.js": "/ARnft-ES6-react/static/js/main.ae75d954.chunk.js",
+    "main.js.map": "/ARnft-ES6-react/static/js/main.ae75d954.chunk.js.map",
+    "runtime-main.js": "/ARnft-ES6-react/static/js/runtime-main.c1347a3e.js",
+    "runtime-main.js.map": "/ARnft-ES6-react/static/js/runtime-main.c1347a3e.js.map",
+    "static/js/2.49d7b0dc.chunk.js": "/ARnft-ES6-react/static/js/2.49d7b0dc.chunk.js",
+    "static/js/2.49d7b0dc.chunk.js.map": "/ARnft-ES6-react/static/js/2.49d7b0dc.chunk.js.map",
+    "index.html": "/ARnft-ES6-react/index.html",
+    "precache-manifest.89cd027224dcbbe19fbd43c1607528e9.js": "/ARnft-ES6-react/precache-manifest.89cd027224dcbbe19fbd43c1607528e9.js",
+    "service-worker.js": "/ARnft-ES6-react/service-worker.js",
+    "static/css/main.cf394707.chunk.css.map": "/ARnft-ES6-react/static/css/main.cf394707.chunk.css.map",
+    "static/js/2.49d7b0dc.chunk.js.LICENSE.txt": "/ARnft-ES6-react/static/js/2.49d7b0dc.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c1347a3e.js",
+    "static/js/2.49d7b0dc.chunk.js",
+    "static/css/main.cf394707.chunk.css",
+    "static/js/main.ae75d954.chunk.js"
+  ]
+}
