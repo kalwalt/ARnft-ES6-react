@@ -5,7 +5,7 @@ import * as THREE from 'three'
 
 ARnft.init(640, 480, "DataNFT/pinball", 'config.json', true)
   .then((nft) => {
-    let mat = new THREE.MeshLambertMaterial()
+    let mat = new THREE.MeshLambertMaterial({color: 0xff0000});
     let cubeGeom = new THREE.CubeGeometry(1,1,1);
     let cube = new THREE.Mesh(cubeGeom, mat);
     cube.position.z = 90;
@@ -19,7 +19,7 @@ ARnft.init(640, 480, "DataNFT/pinball", 'config.json', true)
 
 function App() {
   return (
-    <div className="App">
+    <div>
     </div>
   );
 }
