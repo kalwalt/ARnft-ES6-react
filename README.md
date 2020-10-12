@@ -4,8 +4,13 @@ I am testing the new [ARnft](https://github.com/kalwalt/ARnft) library with the 
 
 ## Install and test
 After cloning it with:
+
 `git clone https://github.com/kalwalt/ARnft-ES-react.git`
-run the yarn installer
+
+run the yarn installer:
+
 `yarn install`
+
 then you are ready to test the project, run:
+
 `yarn start`
