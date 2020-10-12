@@ -1,6 +1,6 @@
 {
-  "artoolkitUrl": "ARnft-ES6-react/artoolkitNFT_wasm.js",
-  "addPath": "",
+  "artoolkitUrl": "artoolkitNFT_wasm.js",
+  "addPath": "ARnft-ES6-react",
   "cameraPara": "Data/camera_para.dat",
   "videoSettings": {
     "width": {
