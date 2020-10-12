@@ -1,9 +1,11 @@
 {
+  "homepage": "http://kalwalt.github.io/ARnft-ES6-react",
   "name": "ar-nft-es6-react",
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
     "@kalwalt/ar-nft": "0.7.5",
+    "gh-pages": "^3.1.0",
     "three": "0.121.1"
   },
   "dependencies": {
@@ -15,6 +17,8 @@
     "react-scripts": "3.4.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
