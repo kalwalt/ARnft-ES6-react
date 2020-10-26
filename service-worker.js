@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ARnft-ES6-react/precache-manifest.ed5bc37f5b0209201e98f5d27537cb7e.js"
+  "/ARnft-ES6-react/precache-manifest.b48be8115e5fc10ae90187ac7b7fc155.js"
 );
 
 self.addEventListener('message', (event) => {

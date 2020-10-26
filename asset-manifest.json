@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/ARnft-ES6-react/static/css/main.cf394707.chunk.css",
-    "main.js": "/ARnft-ES6-react/static/js/main.00566da6.chunk.js",
-    "main.js.map": "/ARnft-ES6-react/static/js/main.00566da6.chunk.js.map",
+    "main.js": "/ARnft-ES6-react/static/js/main.fbd6226d.chunk.js",
+    "main.js.map": "/ARnft-ES6-react/static/js/main.fbd6226d.chunk.js.map",
     "runtime-main.js": "/ARnft-ES6-react/static/js/runtime-main.bee5800d.js",
     "runtime-main.js.map": "/ARnft-ES6-react/static/js/runtime-main.bee5800d.js.map",
-    "static/js/2.9e60748b.chunk.js": "/ARnft-ES6-react/static/js/2.9e60748b.chunk.js",
-    "static/js/2.9e60748b.chunk.js.map": "/ARnft-ES6-react/static/js/2.9e60748b.chunk.js.map",
+    "static/js/2.10aa114b.chunk.js": "/ARnft-ES6-react/static/js/2.10aa114b.chunk.js",
+    "static/js/2.10aa114b.chunk.js.map": "/ARnft-ES6-react/static/js/2.10aa114b.chunk.js.map",
     "index.html": "/ARnft-ES6-react/index.html",
-    "precache-manifest.ed5bc37f5b0209201e98f5d27537cb7e.js": "/ARnft-ES6-react/precache-manifest.ed5bc37f5b0209201e98f5d27537cb7e.js",
+    "precache-manifest.b48be8115e5fc10ae90187ac7b7fc155.js": "/ARnft-ES6-react/precache-manifest.b48be8115e5fc10ae90187ac7b7fc155.js",
     "service-worker.js": "/ARnft-ES6-react/service-worker.js",
     "static/css/main.cf394707.chunk.css.map": "/ARnft-ES6-react/static/css/main.cf394707.chunk.css.map",
-    "static/js/2.9e60748b.chunk.js.LICENSE.txt": "/ARnft-ES6-react/static/js/2.9e60748b.chunk.js.LICENSE.txt"
+    "static/js/2.10aa114b.chunk.js.LICENSE.txt": "/ARnft-ES6-react/static/js/2.10aa114b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.bee5800d.js",
-    "static/js/2.9e60748b.chunk.js",
+    "static/js/2.10aa114b.chunk.js",
     "static/css/main.cf394707.chunk.css",
-    "static/js/main.00566da6.chunk.js"
+    "static/js/main.fbd6226d.chunk.js"
   ]
 }
