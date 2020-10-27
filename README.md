@@ -3,7 +3,7 @@ This is a repository for testing pourpose. This project was bootstrapped with cr
 I am testing the new [ARnft](https://github.com/kalwalt/ARnft) library with the experimental **ES6** feature.
 
 ## Install and test
-After cloning it with:
+After cloning the repository:
 
 `git clone https://github.com/kalwalt/ARnft-ES-react.git`
 
