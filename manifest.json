@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "ARnft-ES6-react",
+  "name": "Example with ARnft and React",
   "icons": [
     {
       "src": "favicon.ico",
