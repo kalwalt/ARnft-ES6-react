@@ -1,6 +1,6 @@
 # ARnft-ES6-react
 This is a repository for testing pourpose. This project was bootstrapped with create react-app.
-I am testing the new [ARnft](https://github.com/kalwalt/ARnft) library with the experimental **ES6** feature.
+I am testing the new [ARnft](https://github.com/webarkit/ARnft) library with the experimental **ES6** feature.
 
 ## Install and test
 After cloning the repository:
