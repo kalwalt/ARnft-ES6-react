@@ -1570,19 +1570,19 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
-"@kalwalt/ar-nft@^0.8.2":
-  version "0.8.2"
-  resolved "https://registry.yarnpkg.com/@kalwalt/ar-nft/-/ar-nft-0.8.2.tgz#54181c37f138b14c34b87221361cbdf5a8652007"
-  integrity sha512-kwvtRndOtRVI06JDkAvy8gmvkRjsRSf0U/Y9s/YkaHmV0eyVSgrBMLli/yULEcZX87mbcgsX4B1F9N8thHbhDw==
+"@kalwalt/ar-nft@^0.8.4":
+  version "0.8.4"
+  resolved "https://registry.yarnpkg.com/@kalwalt/ar-nft/-/ar-nft-0.8.4.tgz#63d12c067809c4c8f66a2449206ca66ecd71dbc7"
+  integrity sha512-+NgQ/1Xn7B9Tv+weO7/M/accvxsChTBppWmHU9gy68WzFy0tiGA/caN1E2hZiZAe7HNU+s/oGjnCADOwTQHZTA==
   dependencies:
-    "@kalwalt/jsartoolkit-nft" "^0.8.1"
+    "@kalwalt/jsartoolkit-nft" "^0.8.2"
     http-server "^0.12.3"
     terser-webpack-plugin "^5.0.3"
 
-"@kalwalt/jsartoolkit-nft@^0.8.1":
-  version "0.8.1"
-  resolved "https://registry.yarnpkg.com/@kalwalt/jsartoolkit-nft/-/jsartoolkit-nft-0.8.1.tgz#35328f62889e0eceabdc7fa49a2fd64a00756a15"
-  integrity sha512-b5B0z9vcdjUO1px/RF33G4FxPn75juj6bNM2oikozdWSrjSOKb8ptdqjcL254C0c+k9UAtDKePJxKNeoVIHY3w==
+"@kalwalt/jsartoolkit-nft@^0.8.2":
+  version "0.8.2"
+  resolved "https://registry.yarnpkg.com/@kalwalt/jsartoolkit-nft/-/jsartoolkit-nft-0.8.2.tgz#51e1add82d6a4c87f1ced36a6096e34a94bd5361"
+  integrity sha512-Au8PTTlzVpMi7hKqaOE0thq01SRDZP7CuWXj+U+iGWwO3mGp8LDYHjD8SOwXB+b+/tV32UFPYZLs4pUExqO97w==
   dependencies:
     "@babel/runtime" "^7.12.5"
     axios "^0.21.0"
