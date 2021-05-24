@@ -3,7 +3,7 @@
   "name": "ARnft-ES6-react",
   "version": "0.1.7",
   "devDependencies": {
-    "@kalwalt/ar-nft": "^0.9.0-beta",
+    "@webarkit/ar-nft": "^0.9.0",
     "@webarkit/arnft-threejs": "^0.1.1",
     "gh-pages": "^3.1.0",
     "three": "^0.128.0"
