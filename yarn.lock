@@ -2032,9 +2032,9 @@
     "@typescript-eslint/types" "4.24.0"
     eslint-visitor-keys "^2.0.0"
 
-"@webarkit/arnft-threejs@https://github.com/webarkit/ARnft-threejs.git#9f2563613627bbd39e4c02edf3338920ea0e067e":
+"@webarkit/arnft-threejs@https://github.com/webarkit/ARnft-threejs.git#4cbcdcf9b714c1a2a2011201a38a2789f2745c51":
   version "0.1.0"
-  resolved "https://github.com/webarkit/ARnft-threejs.git#9f2563613627bbd39e4c02edf3338920ea0e067e"
+  resolved "https://github.com/webarkit/ARnft-threejs.git#4cbcdcf9b714c1a2a2011201a38a2789f2745c51"
   dependencies:
     "@babel/runtime" "^7.14.0"
     three "^0.128.0"
