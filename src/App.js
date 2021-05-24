@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import { ARnft } from '@kalwalt/ar-nft';
+import { ARnftThreejs } from '@webarkit/arnft-threejs';
 import * as THREE from 'three'
 
 ARnft.init(640, 480, "DataNFT/pinball", 'config.json', true)
