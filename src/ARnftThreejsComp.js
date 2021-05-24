@@ -1,5 +1,5 @@
 import React from 'react'
-import { ARnft } from '@kalwalt/ar-nft';
+import { ARnft } from '@webarkit/ar-nft';
 import ARnftThreejs from '@webarkit/arnft-threejs';
 import * as THREE from 'three'
 

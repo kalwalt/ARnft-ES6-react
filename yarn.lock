@@ -1453,16 +1453,6 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
-"@kalwalt/ar-nft@^0.9.0-beta":
-  version "0.9.0-beta"
-  resolved "https://registry.yarnpkg.com/@kalwalt/ar-nft/-/ar-nft-0.9.0-beta.tgz#2ed4963a9c4e7f4b2500903668c45342aca57ded"
-  integrity sha512-oruiAajKChnIhdQkIlBiKncbZeKjItrAsnuoGw6bITm8brKoqwlR93vAvT4UB3UCfbm6N8iMKjTbCaMysVd3SA==
-  dependencies:
-    "@kalwalt/jsartoolkit-nft" "^0.9.1"
-    http-server "^0.12.3"
-    terser-webpack-plugin "^5.1.1"
-    uuid "^8.3.2"
-
 "@kalwalt/jsartoolkit-nft@^0.9.1":
   version "0.9.1"
   resolved "https://registry.yarnpkg.com/@kalwalt/jsartoolkit-nft/-/jsartoolkit-nft-0.9.1.tgz#d59747a11decb0bfe083f5147fd75e018c5569c4"
@@ -2031,6 +2021,16 @@
   dependencies:
     "@typescript-eslint/types" "4.24.0"
     eslint-visitor-keys "^2.0.0"
+
+"@webarkit/ar-nft@^0.9.0":
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/@webarkit/ar-nft/-/ar-nft-0.9.0.tgz#9b0c04de8aa00f877cb12350a7071cab85752690"
+  integrity sha512-V4QSsptoVMa8iaiI1OH3MKwE+IwmUKxjF+TBNBe29th4QzKYbaTnpOnkFwc+sAmTLcxkq8nspH48wf3CqkEnEw==
+  dependencies:
+    "@kalwalt/jsartoolkit-nft" "^0.9.1"
+    http-server "^0.12.3"
+    terser-webpack-plugin "^5.1.1"
+    uuid "^8.3.2"
 
 "@webarkit/arnft-threejs@^0.1.1":
   version "0.1.1"
