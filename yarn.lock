@@ -2032,9 +2032,10 @@
     "@typescript-eslint/types" "4.24.0"
     eslint-visitor-keys "^2.0.0"
 
-"@webarkit/arnft-threejs@https://github.com/webarkit/ARnft-threejs.git#6bee621e0fbf4af4dc003eb04150e053393502ed":
-  version "0.1.0"
-  resolved "https://github.com/webarkit/ARnft-threejs.git#6bee621e0fbf4af4dc003eb04150e053393502ed"
+"@webarkit/arnft-threejs@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@webarkit/arnft-threejs/-/arnft-threejs-0.1.1.tgz#18019e1ca3fa09c5fac4e043018e0e77d95f31b1"
+  integrity sha512-QEAPTyo/gsO3CQhdDNRitEwJt6wLIVSZgYeNM0Buu1yTn2r46haST7aQH9xa7LK3uWkOkfUucZaI5SVF6pPKrA==
   dependencies:
     "@babel/runtime" "^7.14.0"
     three "^0.128.0"
@@ -10080,14 +10081,7 @@ sprintf-js@~1.0.2:
   resolved "https://registry.yarnpkg.com/sprintf-js/-/sprintf-js-1.0.3.tgz#04e6926f662895354f3dd015203633b857297e2c"
   integrity sha1-BOaSb2YolTVPPdAVIDYzuFcpfiw=
 
-ssri@^6.0.1:
-  version "6.0.2"
-  resolved "https://registry.yarnpkg.com/ssri/-/ssri-6.0.2.tgz#157939134f20464e7301ddba3e90ffa8f7728ac5"
-  integrity sha512-cepbSq/neFK7xB6A50KHN0xHDotYzq58wWCa5LeWqnPrHG8GzfEjO/4O8kpmcGW+oaxkvhEJCWgbgNk4/ZV93Q==
-  dependencies:
-    figgy-pudding "^3.5.1"
-
-ssri@^8.0.1:
+ssri@^6.0.1, ssri@^8.0.1:
   version "8.0.1"
   resolved "https://registry.yarnpkg.com/ssri/-/ssri-8.0.1.tgz#638e4e439e2ffbd2cd289776d5ca457c4f51a2af"
   integrity sha512-97qShzy1AiyxvPNIkLWoGua7xoQzzPjQ0HAH4B0rWKo7SZ6USuPcrUiAFrws0UH8RrbWmgq3LMTObhPIHbbBeQ==
