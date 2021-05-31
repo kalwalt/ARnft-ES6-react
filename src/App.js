@@ -1,13 +1,21 @@
 import React from 'react';
 import './App.css';
 import { ARnft } from '@webarkit/ar-nft';
-//import * as ARnftThreejs  from '@webarkit/arnft-threejs';
+import * as ARnftThreejs  from '@webarkit/arnft-threejs';
 //import { NFTaddTJS } from '@webarkit/arnft-threejs/markermedia'
 import * as THREE from 'three'
 
 //console.log(SceneRendererTJS);
+const pathName = window.location.pathname
+let config;
+console.log(pathName);
+if (pathName === '/ARnft-ES6-react'){
+  config = '/ARnft-ES6-react/config.json'
+} else {
+  config = 'config.json'
+}
 
-ARnft.init(640, 480, "DataNFT/pinball", '/../config.json', true)
+ARnft.init(640, 480, "DataNFT/pinball", config, true)
   .then((nft) => {
     console.log(nft);
     let mat = new THREE.MeshLambertMaterial({ color: 0xff0000 });
@@ -18,7 +26,7 @@ ARnft.init(640, 480, "DataNFT/pinball", '/../config.json', true)
 
     let root = new THREE.Object3D();
     root.matrixAutoUpdate = false;
-    /*document.addEventListener('containerEvent', function (ev) {
+    document.addEventListener('containerEvent', function (ev) {
 
       let canvas = document.getElementById('canvas');
       let fov = 0.8 * 180 / Math.PI;
@@ -43,19 +51,19 @@ ARnft.init(640, 480, "DataNFT/pinball", '/../config.json', true)
         }
       }
 
-      /*let sceneThreejs = new SceneRendererTJS(config, canvas, root, nft.uuid, true);
+      let sceneThreejs = new ARnftThreejs.SceneRendererTJS(config, canvas, root, nft.uuid, true);
       sceneThreejs.initRenderer();
 
-      let nftAddTJS = new NFTaddTJS(root);
+      let nftAddTJS = new ARnftThreejs.NFTaddTJS(root);
       nftAddTJS.add(cube);
 
       const tick = () => {
         sceneThreejs.draw();
         window.requestAnimationFrame(tick)
       }
-      tick()*/
+      tick()
 
-    //})
+    })
   }).catch((error) => {
     console.log(error);
   });

@@ -6,7 +6,7 @@
     "@webarkit/ar-nft": "https://github.com/webarkit/ARnft.git#8b3db27f39564478d84753ddbf20ca5614b464b3",
     "@webarkit/arnft-threejs": "^0.1.1",
     "gh-pages": "^3.1.0",
-    "three": "^0.127.0"
+    "three": "^0.128.0"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
