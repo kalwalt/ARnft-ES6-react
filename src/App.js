@@ -2,10 +2,8 @@ import React from 'react';
 import './App.css';
 import { ARnft } from '@webarkit/ar-nft';
 import * as ARnftThreejs  from '@webarkit/arnft-threejs';
-//import { NFTaddTJS } from '@webarkit/arnft-threejs/markermedia'
 import * as THREE from 'three'
 
-//console.log(SceneRendererTJS);
 const pathName = window.location.pathname
 let config;
 console.log(pathName);
@@ -17,7 +15,6 @@ if (pathName === '/ARnft-ES6-react'){
 
 ARnft.init(640, 480, "DataNFT/pinball", config, true)
   .then((nft) => {
-    console.log(nft);
     let mat = new THREE.MeshLambertMaterial({ color: 0xff0000 });
     let boxGeom = new THREE.BoxGeometry(1, 1, 1);
     let cube = new THREE.Mesh(boxGeom, mat);
