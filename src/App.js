@@ -66,10 +66,11 @@ ARnft.init(640, 480, "DataNFT/pinball", config, true)
   });
 
 
+
 function App() {
   return (
     <div>
-    </div>
+    <div/>
   );
 }
 

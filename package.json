@@ -1,7 +1,7 @@
 {
   "homepage": "http://kalwalt.github.io/ARnft-ES6-react",
   "name": "ARnft-ES6-react",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "devDependencies": {
     "@webarkit/ar-nft": "^0.10.0",
     "@webarkit/arnft-threejs": "^0.1.1",
@@ -9,16 +9,17 @@
     "three": "^0.128.0"
   },
   "dependencies": {
-    "@testing-library/jest-dom": "^5.11.6",
-    "@testing-library/react": "^11.1.2",
-    "@testing-library/user-event": "^12.2.2",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-scripts": "4.0.0"
+    "@testing-library/jest-dom": "^5.12.0",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^13.1.9",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3"
   },
   "license": "LGPL-3.0",
   "resolutions": {
     "ecstatic": "^4.1.4",
+    "ssri": "^8.0.1",
     "node-forge": "^0.10.0",
     "object-path": "^0.11.5"
   },
