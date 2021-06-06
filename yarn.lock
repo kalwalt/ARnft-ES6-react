@@ -2022,9 +2022,9 @@
     "@typescript-eslint/types" "4.25.0"
     eslint-visitor-keys "^2.0.0"
 
-"@webarkit/ar-nft@https://github.com/webarkit/ARnft.git#8b3db27f39564478d84753ddbf20ca5614b464b3":
+"@webarkit/ar-nft@https://github.com/webarkit/ARnft.git#6c86b8b112bc0d47b5ef96c3e76e91ef78148b8b":
   version "0.9.1"
-  resolved "https://github.com/webarkit/ARnft.git#8b3db27f39564478d84753ddbf20ca5614b464b3"
+  resolved "https://github.com/webarkit/ARnft.git#6c86b8b112bc0d47b5ef96c3e76e91ef78148b8b"
   dependencies:
     "@kalwalt/jsartoolkit-nft" "^0.9.1"
     terser-webpack-plugin "^5.1.1"
