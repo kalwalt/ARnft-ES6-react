@@ -13,7 +13,7 @@ if (pathName === '/ARnft-ES6-react'){
   config = 'config.json'
 }
 
-ARnft.init(640, 480, "DataNFT/pinball", config, true)
+ARnft.init(640, 480, "ARnft-ES6-react/DataNFT/pinball", config, true)
   .then((nft) => {
     let mat = new THREE.MeshLambertMaterial({ color: 0xff0000 });
     let boxGeom = new THREE.BoxGeometry(1, 1, 1);
