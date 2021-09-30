@@ -13,7 +13,7 @@ if (pathName === '/ARnft-ES6-react'){
   config = 'config.json'
 }
 
-ARnft.init(640, 480, "ARnft-ES6-react/DataNFT/pinball", config, true)
+ARnft.init(640, 480, ["ARnft-ES6-react/DataNFT/pinball"], ['pinball'], config, true)
   .then((nft) => {
     let mat = new THREE.MeshLambertMaterial({ color: 0xff0000 });
     let boxGeom = new THREE.BoxGeometry(1, 1, 1);
@@ -51,8 +51,8 @@ ARnft.init(640, 480, "ARnft-ES6-react/DataNFT/pinball", config, true)
       let sceneThreejs = new ARnftThreejs.SceneRendererTJS(config, canvas, root, nft.uuid, true);
       sceneThreejs.initRenderer();
 
-      let nftAddTJS = new ARnftThreejs.NFTaddTJS(root);
-      nftAddTJS.add(cube);
+      let nftAddTJS = new ARnftThreejs.NFTaddTJS(nft.uuid);
+      nftAddTJS.add(cube, 'pinball', false);
 
       const tick = () => {
         sceneThreejs.draw();
