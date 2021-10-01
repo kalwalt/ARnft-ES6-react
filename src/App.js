@@ -37,8 +37,7 @@ ARnft.init(640, 480, ["ARnft-ES6-react/DataNFT/pinball"], ['pinball'], config, t
           "premultipliedAlpha": true,
           "stencil": true,
           "depth": true,
-          "logarithmicDepthBuffer": true,
-          "objVisibility": false
+          "logarithmicDepthBuffer": true
         },
         "camera": {
           "fov": fov,
