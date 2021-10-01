@@ -48,7 +48,7 @@ ARnft.init(640, 480, ["ARnft-ES6-react/DataNFT/pinball"], ['pinball'], config, t
         }
       }
 
-      let sceneThreejs = new ARnftThreejs.SceneRendererTJS(config, canvas, root, nft.uuid, true);
+      let sceneThreejs = new ARnftThreejs.SceneRendererTJS(config, canvas, nft.uuid, true);
       sceneThreejs.initRenderer();
 
       let nftAddTJS = new ARnftThreejs.NFTaddTJS(nft.uuid);
