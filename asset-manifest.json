@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/ARnft-ES6-react/static/css/main.f03bb8e2.chunk.css",
-    "main.js": "/ARnft-ES6-react/static/js/main.39b82770.chunk.js",
-    "main.js.map": "/ARnft-ES6-react/static/js/main.39b82770.chunk.js.map",
-    "runtime-main.js": "/ARnft-ES6-react/static/js/runtime-main.84cf04f1.js",
-    "runtime-main.js.map": "/ARnft-ES6-react/static/js/runtime-main.84cf04f1.js.map",
-    "static/js/2.c46d744f.chunk.js": "/ARnft-ES6-react/static/js/2.c46d744f.chunk.js",
-    "static/js/2.c46d744f.chunk.js.map": "/ARnft-ES6-react/static/js/2.c46d744f.chunk.js.map",
+    "main.js": "/ARnft-ES6-react/static/js/main.e9934b14.chunk.js",
+    "main.js.map": "/ARnft-ES6-react/static/js/main.e9934b14.chunk.js.map",
+    "runtime-main.js": "/ARnft-ES6-react/static/js/runtime-main.f78a2a44.js",
+    "runtime-main.js.map": "/ARnft-ES6-react/static/js/runtime-main.f78a2a44.js.map",
+    "static/js/2.befc9a40.chunk.js": "/ARnft-ES6-react/static/js/2.befc9a40.chunk.js",
+    "static/js/2.befc9a40.chunk.js.map": "/ARnft-ES6-react/static/js/2.befc9a40.chunk.js.map",
     "index.html": "/ARnft-ES6-react/index.html",
     "static/css/main.f03bb8e2.chunk.css.map": "/ARnft-ES6-react/static/css/main.f03bb8e2.chunk.css.map",
-    "static/js/2.c46d744f.chunk.js.LICENSE.txt": "/ARnft-ES6-react/static/js/2.c46d744f.chunk.js.LICENSE.txt"
+    "static/js/2.befc9a40.chunk.js.LICENSE.txt": "/ARnft-ES6-react/static/js/2.befc9a40.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.84cf04f1.js",
-    "static/js/2.c46d744f.chunk.js",
+    "static/js/runtime-main.f78a2a44.js",
+    "static/js/2.befc9a40.chunk.js",
     "static/css/main.f03bb8e2.chunk.css",
-    "static/js/main.39b82770.chunk.js"
+    "static/js/main.e9934b14.chunk.js"
   ]
 }
