@@ -1,9 +1,9 @@
 {
   "homepage": "http://kalwalt.github.io/ARnft-ES6-react",
   "name": "ARnft-ES6-react",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "devDependencies": {
-    "@webarkit/ar-nft": "^0.12.2",
+    "@webarkit/ar-nft": "^0.13.1",
     "@webarkit/arnft-threejs": "^0.4.5",
     "gh-pages": "^3.2.3",
     "three": "^0.137.5"
@@ -33,17 +33,9 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "browserslist": {
-    "production": [
-      ">0.3%",
-      "not ie 11",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+  "browserslist": [
+    ">0.2%",
+   "not dead",
+   "not op_mini all"
+ ]
 }
