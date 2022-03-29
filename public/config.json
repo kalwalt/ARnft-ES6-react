@@ -1,6 +1,6 @@
 {
   "addPath": "ARnft-ES6-react",
-  "cameraPara": "ARnft-ES6-react/Data/camera_para.dat",
+  "cameraPara": "/Data/camera_para.dat",
   "container": {
     "create": true,
     "containerName": "",
