@@ -13,7 +13,9 @@ if (pathName === '/ARnft-ES6-react'){
   config = 'config.json'
 }
 
-ARnft.init(640, 480, ["ARnft-ES6-react/DataNFT/pinball"], ['pinball'], config, true)
+let width = 640;
+let height = 480;
+ARnft.init(width, height, [["DataNFT/pinball"]], [['pinball']], config, true)
   .then((nft) => {
     let mat = new THREE.MeshLambertMaterial({ color: 0xff0000 });
     let boxGeom = new THREE.BoxGeometry(1, 1, 1);
@@ -27,7 +29,7 @@ ARnft.init(640, 480, ["ARnft-ES6-react/DataNFT/pinball"], ['pinball'], config, t
 
       let canvas = document.getElementById('canvas');
       let fov = 0.8 * 180 / Math.PI;
-      let ratio = window.clientWidth / window.clientHeight;
+      let ratio = width / height;
       let config = {
         "renderer": {
           "alpha": true,
