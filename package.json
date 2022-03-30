@@ -1,7 +1,7 @@
 {
   "homepage": "https://kalwalt.github.io/ARnft-ES6-react",
   "name": "ARnft-ES6-react",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "devDependencies": {
     "@webarkit/ar-nft": "^0.14.1",
     "@webarkit/arnft-threejs": "^0.4.6",
