@@ -1,7 +1,7 @@
 {
   "homepage": "https://kalwalt.github.io/ARnft-ES6-react",
   "name": "arnft-es6-react",
-  "version": "0.4.1",
+  "version": "0.4.3",
   "type": "module",
   "license": "LGPL-3.0",
   "scripts": {
