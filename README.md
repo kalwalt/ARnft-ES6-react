@@ -13,4 +13,4 @@ run the yarn installer:
 
 then you are ready to test the project, run:
 
-`yarn start`
+`yarn dev`

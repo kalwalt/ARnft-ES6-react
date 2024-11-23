@@ -1,5 +1,4 @@
-import React from 'react';
-import './App.css';
+import './App.css'
 import { ARnft } from '@webarkit/ar-nft';
 import * as ARnftThreejs  from '@webarkit/arnft-threejs';
 import * as THREE from 'three'
@@ -15,7 +14,7 @@ if (pathName === '/ARnft-ES6-react'){
 
 let width = 640;
 let height = 480;
-ARnft.init(width, height, [["../DataNFT/pinball"]], [['pinball']], config, true)
+ARnft.init(width, height, [["./DataNFT/pinball"]], [['pinball']], config, true)
   .then((nft) => {
     let mat = new THREE.MeshLambertMaterial({ color: 0xff0000 });
     let boxGeom = new THREE.BoxGeometry(1, 1, 1);
@@ -26,6 +25,10 @@ ARnft.init(width, height, [["../DataNFT/pinball"]], [['pinball']], config, true)
     let root = new THREE.Object3D();
     root.matrixAutoUpdate = false;
     document.addEventListener('containerEvent', function (ev) {
+
+      if(ev.type === 'containerEvent'){
+        console.log('Container created...');
+      }
 
       let canvas = document.getElementById('canvas');
       let fov = 0.8 * 180 / Math.PI;
@@ -67,12 +70,11 @@ ARnft.init(width, height, [["../DataNFT/pinball"]], [['pinball']], config, true)
   });
 
 
-
 function App() {
   return (
-    <div>
-    </div>
-  );
+    <>
+    </>
+  )
 }
 
-export default App;
+export default App
